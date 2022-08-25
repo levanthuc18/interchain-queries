@@ -1,0 +1,37 @@
+efault_chain: stride-testnet
+chains:
+  gaia-testnet:
+    key: vanthuc
+    chain-id: GAIA
+    rpc-addr: http://45.67.217.3:23657      # use your own GAIA RPC endpoint here
+    grpc-addr: http://45.67.217.3:23090     # use your own GAIA GRPC endpoint here
+    account-prefix: cosmos
+    keyring-backend: test
+    gas-adjustment: 1.2
+    gas-prices: 0.001uatom
+    key-directory: /root/.icq/keys
+    debug: false
+    timeout: 20s
+    block-timeout: ""
+    output-format: json
+    sign-mode: direct
+  stride-testnet:
+    key: vanthuc89
+    chain-id: STRIDE-TESTNET-4
+    rpc-addr: http://38.242.13.188:16657      # use your own Stride GRPC endpoint here
+    grpc-addr: http://38.242.13.188:16090     # use your own Stride GRPC endpoint here
+    account-prefix: stride
+    keyring-backend: test
+    gas-adjustment: 1.2
+    gas-prices: 0.001ustrd
+    key-directory: /root/.icq/keys
+    debug: false
+    timeout: 20s
+    block-timeout: ""
+    output-format: json
+    sign-mode: direct
+cl: {}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
